@@ -3,18 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "lodash": "^4.17.21",
-    "puppeteer": "^10.2.0"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.5"
-  },
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junppark/js.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junppark/js/issues"
+  },
+  "homepage": "https://github.com/junppark/js#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
 }
